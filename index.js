@@ -1,6 +1,6 @@
 'use strict'
-var byYear = require('./namesByYear.json');
-var byName = require('./yearsByName.json');
+let byYear = require('./namesByYear.json');
+let byName = require('./yearsByName.json');
 module.exports = {
   byYear,
   byName

@@ -1,6 +1,6 @@
 {
   "name": "us-baby-names-2",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "U.S. baby name data from 1880 to 2021 (inspired by `https://www.npmjs.com/package/us-baby-names`)",
   "main": "index.js",
   "scripts": {
@@ -18,7 +18,7 @@
     "node": ">=16"
   },
   "author": "Roger Jaffe",
-  "repository": "https://github.com/rogerjaffe/us-baby-names",
+  "repository": "https://github.com/rogerjaffe/us-baby-names-2",
   "license": "CC0-1.0",
   "devDependencies": {
     "fs-extra": "^11.1.0",

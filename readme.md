@@ -1,7 +1,7 @@
 # U.S. Baby Names
 > U.S. baby name data from 1880 to 2021
 
-⚠️ Warning: don't use these datasets client-side. The by-year dataset is 74 MB and the by-name dataset is 67 MB.
+⚠️ Warning: don't use these datasets client-side. The `byYear` dataset is 74 MB and the `byName` dataset is 67 MB.
 
 ## Install
 
@@ -14,7 +14,7 @@ $ npm install us-baby-names-2 --save
 ### Data by year
 
 ```js
-const byYear = require('us-baby-names-2/by-year')
+const { byYear } = require('us-baby-names-2')
 console.log(byYear[1880])
 // [ { name: 'Mary', sex: 'F', count: 7065 },
 //  { name: 'Anna', sex: 'F', count: 2604 },
@@ -25,7 +25,7 @@ console.log(byYear[1880])
 
 ### Data by name
 ```js
-const byName = require('us-baby-names-2/by-name')
+const { byName } = require('us-baby-names-2')
 console.log(byName['Mary'])
 // [ { year: 1880, sex: 'F', count: 7065 },
 //   { year: 1880, sex: 'M', count: 27 },
