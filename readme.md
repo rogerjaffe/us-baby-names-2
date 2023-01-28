@@ -6,7 +6,7 @@
 ## Install
 
 ```
-$ npm install us-baby-names --save
+$ npm install us-baby-names-2 --save
 ```
 
 ## Usage
@@ -14,7 +14,7 @@ $ npm install us-baby-names --save
 ### Data by year
 
 ```js
-const byYear = require('us-baby-names/by-year')
+const byYear = require('us-baby-names-2/by-year')
 console.log(byYear[1880])
 // [ { name: 'Mary', sex: 'F', count: 7065 },
 //  { name: 'Anna', sex: 'F', count: 2604 },
@@ -25,7 +25,7 @@ console.log(byYear[1880])
 
 ### Data by name
 ```js
-const byName = require('us-baby-names/by-name')
+const byName = require('us-baby-names-2/by-name')
 console.log(byName['Mary'])
 // [ { year: 1880, sex: 'F', count: 7065 },
 //   { year: 1880, sex: 'M', count: 27 },
@@ -37,7 +37,7 @@ console.log(byName['Mary'])
 ### Both at once
 
 ```js
-const { byYear, byName } = require('us-baby-names')
+const { byYear, byName } = require('us-baby-names-2')
 ```
 
 ## Source
